@@ -34,5 +34,28 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+#google-logo{
+    text-align: center;
+}
+
+#search-container {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#search-icon , #voice-icon {
+    position: absolute;
+    top:0;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img{
+    width: 20px;
+  height: 20px;
 }
