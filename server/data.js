@@ -3,19 +3,19 @@
 
 
 
-searchResults = 
-[{Name: 'RouteOne',description: 'Skateboarding shop', url:'www.routeone.co.uk'},
-{Name: 'Murdock',description: 'Barber shop', url:'https://www.murdocklondon.com'},
-{Name: 'Tesco',description: 'food shop', url:'www.tesco.com'},
-{Name: 'Nike',description: 'Shoe shop', url:'www.nike.com/gb/'},
-{Name: 'Apple',description: 'technology shop', url:'www.routeone.co.uk'},
-{Name: 'GAME',description: 'game shop', url:'www.game.co.uk'},
-{Name: 'Sainsbury\'s',description: 'food shop', url:'www.sainsburys.co.uk'},
-{Name: 'Homebase',description: 'outdoor shop', url:'www.homebase.co.uk'},
-{Name: 'Staples',description: 'stationary shop', url:'www.staples.co.uk'},
-{Name: 'Dobbies',description: 'garden shop', url:'www.dobbies.com'},
-{Name: 'Morrisons',description: 'food shop', url:'groceries.morrisons.com'},
-{Name: 'Asda',description: 'food shop', url:'www.asda.com'},
-{Name: 'Lakai',description: 'shoe shop', url:'www.lakai.co.uk'}]
+let searchResults = 
+[{Name: 'routeone',description: 'skate shop', url:'www.routeone.co.uk'},
+{Name: 'murdock',description: 'barber shop', url:'https://www.murdocklondon.com'},
+{Name: 'tesco',description: 'food shop', url:'www.tesco.com'},
+{Name: 'nike',description: 'shoe shop', url:'www.nike.com/gb/'},
+{Name: 'apple',description: 'technology shop', url:'www.routeone.co.uk'},
+{Name: 'game',description: 'game shop', url:'www.game.co.uk'},
+{Name: 'sainsburys',description: 'food shop', url:'www.sainsburys.co.uk'},
+{Name: 'homebase',description: 'outdoor shop', url:'www.homebase.co.uk'},
+{Name: 'staples',description: 'stationary shop', url:'www.staples.co.uk'},
+{Name: 'dobbies',description: 'garden shop', url:'www.dobbies.com'},
+{Name: 'morrisons',description: 'food shop', url:'groceries.morrisons.com'},
+{Name: 'asda',description: 'food shop', url:'www.asda.com'},
+{Name: 'lakai',description: 'shoe shop', url:'www.lakai.co.uk'}];
 
 module.exports = searchResults;
