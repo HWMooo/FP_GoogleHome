@@ -111,3 +111,35 @@ a:hover {
     border:2px solid  transparent;
     color:rgb(102, 95, 95);;
 }
+
+#links{
+    margin: 15px;
+    text-align:center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn:hover{
+    box-shadow: 0 0 2px 1px rgb(179, 176, 176);
+    border: 1px solid  rgb(243, 243, 243);
+    color:rgb(20, 5, 5);
+}
+
+#footer-container{
+    width: 100%;
+    margin: auto;
+    padding: 0 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 60px;
+    background: rgb(243, 243, 243);
+}
+
+footer a {
+    margin:5px 25px;
+    font-size: 16px;
+}
