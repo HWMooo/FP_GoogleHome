@@ -1,11 +1,6 @@
-
 button = document.querySelector('#searchButton');
 searchedTerm = document.querySelector('#search-bar');
 const ul = document.querySelector('ul');
-
-
-
-
 button.addEventListener('click', function SearchResults(event) {
     let searchTerm = searchedTerm.value.toLowerCase();
     fetch('http://localhost:3000/search?description=' + searchTerm).then(function (response) {
@@ -16,15 +11,8 @@ button.addEventListener('click', function SearchResults(event) {
                 let text = document.createTextNode(`${json[item][details].Name},${json[item][details].description},${json[item][details].url}`);
                 list.appendChild(text);
                  ul.appendChild(list);
-                
-
-
-
             }
-
-
         }
         })
     })
 })
-

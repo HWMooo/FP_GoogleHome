@@ -6,12 +6,7 @@ const cors = require('cors');
 var path = require('path');
 app.use(bodyParser.json());
 app.use(cors());
-
 app.use(express.static('/client'));
-
-
-
-
 app.get('/', (req, res) => res.sendFile("/Users/harrymoore/Projects2022/FP_GooglePagetwo/client/index.html"));
 
 app.get('/search', async (req, res) =>{
@@ -33,10 +28,6 @@ app.get('/search', async (req, res) =>{
         res.send(err.message);
     }
 })
-
-
-
-
 module.exports = {
     app
   }

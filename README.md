@@ -1,8 +1,6 @@
 
 The page is a clone of googles home page.
-
 install dependencies - go into the server folder and run npm install.
-
 to start the server run npm start in the terminal (inside server directory).
 
 go to client folder.
