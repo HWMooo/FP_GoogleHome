@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.sendFile('/Users/harrymoore/Projects2022/FP_GooglePagetwo/client/index.html'));
 
 app.get('/search', async (req, res) =>{
     try{
