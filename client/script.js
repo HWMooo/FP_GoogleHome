@@ -1,3 +1,4 @@
+
 button = document.querySelector('button');
 searchedTerm = document.querySelector('input');
 const ul = document.querySelector('ul');
@@ -26,3 +27,4 @@ button.addEventListener('click', function SearchResults(event) {
         })
     })
 })
+
