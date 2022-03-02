@@ -1,6 +1,6 @@
 
-button = document.querySelector('button');
-searchedTerm = document.querySelector('input');
+button = document.querySelector('#searchButton');
+searchedTerm = document.querySelector('#search-bar');
 const ul = document.querySelector('ul');
 
 
