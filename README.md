@@ -7,7 +7,9 @@ go to client folder.
 
 open index.html.
 
-when a query is input into the search bar and the google search button is clicked, a list is produced of results is produced.
+when a query is input into the search bar and the google search button is clicked you are redirected to a results page.
+when you click the 'im feeling lucky button' you are redirected to the search page containing a random search.
+pressing the enter key when inputing text into search bar in the results page you are redirected to a new results page.
 
 -----------------------------------------------------
 
@@ -20,8 +22,9 @@ making footer stick to the bottom of page.
 
 ------------------------------------------------------
 
-to do: connect html pages to server with css and js working.
+to do: connect html pages to server with css and js working [x]
 
-finish the search page html.
+finish the search page html []
 
-change display of results, completely get rid of the list and make it overall nicer.
+change display of results, completely get rid of the list and make it overall nicer [x]
+
