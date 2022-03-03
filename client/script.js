@@ -1,30 +1,30 @@
-
 button = document.querySelector('#searchButton');
 searchedTerm = document.querySelector('#search-bar');
+LuckyButton = document.querySelector('#LuckyButton')
 const ul = document.querySelector('ul');
 
+button.addEventListener('click', SearchResults);
+LuckyButton.addEventListener('click', RandomResult);
 
-
-
-button.addEventListener('click', function SearchResults(event) {
+function SearchResults () {
     let searchTerm = searchedTerm.value.toLowerCase();
-    fetch('http://localhost:3000/search?description=' + searchTerm).then(function (response) {
+    if(searchTerm === ""){
+        alert("search input empty");
+    }
+    else{
+        window.location = 'http://localhost:3000/search?description=' + searchTerm;
+    }
+}
+
+
+function RandomResult () {
+    fetch('http://localhost:3000/api').then(function (response) {
         response.json().then(function (json) {
-        for(item in json){
-            for(let details = 0; details < json[item].length; details++){
-                let list = document.createElement("li")
-                let text = document.createTextNode(`${json[item][details].Name},${json[item][details].description},${json[item][details].url}`);
-                list.appendChild(text);
-                 ul.appendChild(list);
-                
-
-
-
+            for(item in json){
+                    randomSearch = json[Math.floor(Math.random()*json.length)].Name;
+                    window.location = 'http://localhost:3000/search?description=' + randomSearch;
+            
             }
-
-
-        }
+            })
         })
-    })
-})
-
+}

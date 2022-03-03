@@ -1,8 +1,4 @@
 
-
-
-
-
 let searchResults = 
 [{Name: 'routeone',description: 'skate shop', url:'www.routeone.co.uk'},
 {Name: 'murdock',description: 'barber shop', url:'https://www.murdocklondon.com'},
@@ -17,5 +13,4 @@ let searchResults =
 {Name: 'morrisons',description: 'food shop', url:'groceries.morrisons.com'},
 {Name: 'asda',description: 'food shop', url:'www.asda.com'},
 {Name: 'lakai',description: 'shoe shop', url:'www.lakai.co.uk'}];
-
 module.exports = searchResults;
