@@ -7,6 +7,7 @@ const searchBar = document.getElementById('search-bar');
 
 let searched = location.href.split("=");
 let searchedTerm = searched[1];
+searchBar.addEventListener('keypress', SearchResults);
 
 
 fetch('http://localhost:3000/api').then(function (response) {
@@ -27,7 +28,7 @@ fetch('http://localhost:3000/api').then(function (response) {
 })
 
 
-searchBar.addEventListener('keypress', function SearchResults(event) {
+function SearchResults(event) {
     if (event.key === 'Enter') {
         let searchTerm = searchBar.value.toLowerCase();
         if(searchTerm === ""){
@@ -38,7 +39,7 @@ searchBar.addEventListener('keypress', function SearchResults(event) {
         }
     }
 
-})
+}
 
 
 
