@@ -28,13 +28,12 @@ button.addEventListener('click', function SearchResults(event) {
 
 
 LuckyButton.addEventListener('click', function RandomResult(){
-    fetch('http://localhost:3000/search?description=shop').then(function (response) {
+    fetch('http://localhost:3000/api').then(function (response) {
         response.json().then(function (json) {
             for(item in json){
-                for(let details = 0; details < json[item].length; details++){
-                    randomSearch = json[item][Math.floor(Math.random()*json[item].length)].Name;
+                    randomSearch = json[Math.floor(Math.random()*json.length)].Name;
                     window.location = 'http://localhost:3000/search?description=' + randomSearch;
-                }
+            
             }
             })
         })
