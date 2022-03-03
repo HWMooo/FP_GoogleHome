@@ -2,10 +2,7 @@
 The page is a clone of googles home page.
 install dependencies - go into the server folder and run npm install.
 to start the server run npm start in the terminal (inside server directory).
-
-go to client folder.
-
-open index.html.
+navigate to localhost:3000 in browser.
 
 when a query is input into the search bar and the google search button is clicked you are redirected to a results page.
 when you click the 'im feeling lucky button' you are redirected to the search page containing a random search.
