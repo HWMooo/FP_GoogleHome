@@ -24,6 +24,8 @@ making footer stick to the bottom of page.
 
 to do: connect html pages to server with css and js working [x]
 
+add testing []
+
 finish the search page html []
 
 change display of results, completely get rid of the list and make it overall nicer [x]
