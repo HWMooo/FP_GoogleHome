@@ -21,7 +21,8 @@ making footer stick to the bottom of page.
 
 to do: connect html pages to server with css and js working [x]
 
-add testing []
+add testing [x]
+add more testing for other js files []
 
 finish the search page html []
 
