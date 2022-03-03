@@ -26,7 +26,8 @@ app.get('/search', async (req, res) =>{
             }
             return isValid;
         });
-        res.json({data: filterSearch})
+        res.sendFile('/client/Search.html', {root: '..'})
+        //res.json({data: filterSearch})
     }
     catch(err){
         res.send(err.message);
@@ -35,6 +36,10 @@ app.get('/search', async (req, res) =>{
 module.exports = {
     app
   }
+
+app.get('/api', (req, res) =>{
+    res.json(searchResults);
+})
 
 
 
