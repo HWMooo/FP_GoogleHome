@@ -10,8 +10,9 @@ pressing the enter key when inputing text into search bar in the results page yo
 
 -----------------------------------------------------
 
-Enjoyed the backend until i got stuck.
-Couldnt connect server and html/css/script.
+Enjoyed the backend
+Couldnt connect server and html/css/script initially.
+functional.
 
 Enjoyed the frontend.
 Front end - struggles to layer fontawesome icons on top of search bar.
@@ -22,7 +23,8 @@ making footer stick to the bottom of page.
 to do: connect html pages to server with css and js working [x]
 
 add testing [x]
-add more testing for other js files []
+add testing for html [x]
+add testing for other js files []
 
 finish the search page html []
 

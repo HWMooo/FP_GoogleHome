@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1646341181998" clover="3.2.0">
-  <project timestamp="1646341181998" name="All files">
+<coverage generated="1646396436779" clover="3.2.0">
+  <project timestamp="1646396436779" name="All files">
     <metrics statements="23" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3" elements="27" coveredelements="24" complexity="0" loc="23" ncloc="23" packages="1" files="2" classes="2"/>
     <file name="app.js" path="/Users/harrymoore/Projects2022/FP_GooglePagetwo/server/app.js">
       <metrics statements="21" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>

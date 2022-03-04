@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage",
+    "test": "jest --env=jsdom",
+    "coverage": "jest --coverage  --env=jsdom",
     "start": "node server.js"
   },
   "author": "",
